@@ -1,0 +1,19 @@
+section {
+    height: 400px;
+    margin: 20px;
+    border: 1px solid $color1;
+    box-shadow: 3px 1px 9px 1px rgb(49, 44, 44);
+    @include centerChild();
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-40px);
+        transition: 0.2s;
+    }
+
+    p {
+        width: 50%;
+        text-align: center;
+
+    }
+}

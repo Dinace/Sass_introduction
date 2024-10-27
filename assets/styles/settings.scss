@@ -1,0 +1,17 @@
+//Variables
+$color1: pink;
+$color2: #d4d42f;
+$color3: hsla(240, 41%, 49%, 0.788);
+$color4: #a38888;
+
+//mixins : les parties du code qui reviennent souvent
+
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: $color4;
+}
